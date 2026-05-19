@@ -92,23 +92,7 @@ umap-learn (UMAP projection)
 Matplotlib, Seaborn (visualizations)
 Jupyter Notebook
 
-Installation and usage
-1. Clone the repository
-bashgit clone https://github.com/YOUR_USERNAME/road-accidents-clustering.git
-cd road-accidents-clustering
-2. Install dependencies
-bashpip install -r requirements.txt
-3. Data
-The notebook expects the file historico_siniestros_bogota_d.c_-.csv in the project root. The dataset is not included in this repository due to its size. It can be obtained from the open data portal of the Secretaría Distrital de Movilidad de Bogotá.
-4. Run the notebook
-bashjupyter notebook Proyecto2_TecMaq.ipynb
-Repository structure
-road-accidents-clustering/
-├── Proyecto2_TecMaq.ipynb   # Main notebook with all three models
-├── Project_Report.pdf       # Academic report
-├── README.md                # This file
-├── requirements.txt         # Python dependencies
-└── .gitignore               # Files ignored by git
+
 Conclusions
 The three clustering approaches yielded complementary insights into the structure of fatal road accidents in Bogotá:
 
